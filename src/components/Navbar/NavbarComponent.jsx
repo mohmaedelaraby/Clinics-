@@ -16,37 +16,37 @@ function NavbarComponent() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/"><a className="nav-link active" aria-current="page">Home</a></Link>
+                <Link to="/"><span className="nav-link active" aria-current="page">Home</span></Link>
 
               </li>
             
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About us
-                </a>
+                </span>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><span className="dropdown-item" href="#">Action</span></li>
+                  <li><span className="dropdown-item" href="#">Another action</span></li>
                   <li><hr className="dropdown-divider"></hr></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><span className="dropdown-item" href="#">Something else here</span></li>
                 </ul>
               </li>
 
 
               <li className="nav-item">
-                <Link to="/services"><a className="nav-link active" aria-current="page">Medical Services</a></Link>
+                <Link to="/services"><span className="nav-link active" aria-current="page">Medical Services</span></Link>
               </li>
 
               <li className="nav-item">
-                <Link to="/services"><a className="nav-link active" aria-current="page"> Departments</a></Link>
+                <Link to="/services"><span className="nav-link active" aria-current="page"> Departments</span></Link>
               </li>
 
               <li className="nav-item">
-                <Link to="/featurs"><a className="nav-link active" aria-current="page"> Timetable</a></Link>
+                <Link to="/featurs"><span className="nav-link active" aria-current="page"> Timetable</span></Link>
               </li>
 
               <li className="nav-item">
-                <Link to="/contact us"><a className="nav-link active" aria-current="page"> Contact Us</a></Link>
+                <Link to="/contact us"><span className="nav-link active" aria-current="page"> Contact Us</span></Link>
               </li>
             </ul>
          {/*    <form className="d-flex">

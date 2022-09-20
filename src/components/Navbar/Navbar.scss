@@ -1,0 +1,49 @@
+.navbar{
+    padding: 0;
+    margin: 0;
+    &.navbar--health-bg{
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .navbar__container{
+            min-height: 75px;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .navbar-brand{
+                flex: 2;
+                img{
+                    height: 50px;
+                }
+            }
+            .collapse{
+              
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: end;                   
+                    .nav-item{
+                        padding: 0px 10px;
+                        a{
+                            color: #3e4043;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 16px;
+                            text-decoration: none;
+                            transition: 0.2s ease all;
+    
+                            &:hover{
+                                color: #36a8eb;
+                                transition: 0.2s ease all;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+       
+       
+    }
+}

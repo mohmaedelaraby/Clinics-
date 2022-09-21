@@ -1,0 +1,16 @@
+.doctors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    .doctors__container{
+        position: absolute;
+        margin-bottom: 50px;
+        top: -70px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

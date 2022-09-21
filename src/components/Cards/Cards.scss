@@ -4,6 +4,67 @@
     padding: 0;
     margin: 0;
     border: none !important;
+
+    &.card--doctor{
+        width: 290px;
+        height: 607px;
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+        border: none !important;
+        .card-body{
+          
+            padding: 40px;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .card-body__header{
+                display: flex;
+                align-items: center;
+                justify-self: center;
+                flex-direction: column;
+                font-size: 14px;
+                color: #222;
+                letter-spacing: 0 !important;
+                .card-body__header__bottomline{
+                    opacity: 1 !important;
+                    width: 50%;
+                    border: none;
+                    border-top: 3px solid black;
+                }
+            }
+            .card-body__title{
+                color: #222;
+                font-weight: 800;
+                font-size: 25px;
+                margin-bottom: 30px;
+            }
+            .card-text{
+                text-align: center;
+                line-height: 1.55;
+                color: #222;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                background-color: white;
+                border: 2px solid white;
+                border-radius: 50px;
+                font-size: 12px;
+                font-weight: 600;
+                color: black;
+                padding: 10px 20px;
+                transition: 0.2s ease all;
+    
+                &:hover{
+                    transition: 0.2s ease all;
+                    background-color: rgb(226, 225, 225); 
+                }
+            }
+        }
+    }
     .card-img-top{
         border-radius:0px ;
     }

@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Information from "./components/Informations/Information";
 import Introduce from "./components/Introduce/Introduce";
+import Doctors from "./components/Doctors/Doctors";
  
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SwiperComponent/>
       <Information/>
       <Introduce/>
+      <Doctors/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

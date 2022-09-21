@@ -22,6 +22,20 @@
         
                     &.slider_item__contianerTwo{
                         background-image: url('../../assets/images/bgn-slider-02.jpg');
+                        .slider_item__contianer__textbox{
+                            
+                        .slider_item__contianer__textbox__title {
+                            color: #1d1d1d;
+                            font-weight: normal;
+                            font-size: 70px;
+                            .slider_item__contianer__textbox__subtitle {
+                                color: #c21428;
+                                font-size: 70px;
+                                font-weight: bold;
+                            }
+                        }
+                        }
+
                     }
         
                     .slider_item__contianer__textbox {
@@ -47,12 +61,14 @@
                             color: #e10f28;
                             font-weight: 800;
                             font-size: 70px;
+                            .slider_item__contianer__textbox__subtitle {
+                                color: #222;
+                                font-size: 70px;
+                                font-weight: normal;
+                            }
                         }
         
-                        .slider_item__contianer__textbox__subtitle {
-                            color: #222;
-                            font-size: 70px;
-                        }
+                       
         
                         .slider_item__contianer__textbox__content {
                             line-height: 1.55;

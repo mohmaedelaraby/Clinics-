@@ -6,6 +6,7 @@ import SwiperComponent from './components/Swieper/SwiperCompnonet';
 import Home from './pages/Home'
 import About from './pages/About'
 import Information from "./components/Informations/Information";
+import Introduce from "./components/Introduce/Introduce";
  
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavbarComponent/>
       <SwiperComponent/>
       <Information/>
+      <Introduce/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

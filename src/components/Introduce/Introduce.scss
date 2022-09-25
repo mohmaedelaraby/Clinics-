@@ -13,7 +13,8 @@
         height: 100%;
         background-image: url('../../assets/images/bgn-team-members.jpg');
         background-repeat: no-repeat;
-    
+        background-size: cover;
+
         display: block;
 
         text-align: left;
@@ -21,16 +22,17 @@
 
         .introduce__contianer__textbox {
             display: flex;
-    justify-content: center;
-    flex-direction: column;
+            justify-content: center;
+            flex-direction: column;
             margin-left: 50%;
-            
+
 
 
             .introduce__contianer__textbox__header {
                 font-size: 25px;
                 letter-spacing: 0 !important;
-                .introduce__contianer__textbox__header__bottomline{
+
+                .introduce__contianer__textbox__header__bottomline {
                     opacity: 1 !important;
                     width: 10%;
                     border: none;
@@ -42,6 +44,7 @@
                 color: #e10f28;
                 font-weight: 800;
                 font-size: 70px;
+
                 .introduce__contianer__textbox__subtitle {
                     color: #222;
                     font-size: 70px;
@@ -49,7 +52,7 @@
                 }
             }
 
-           
+
 
             .introduce__contianer__textbox__content {
                 line-height: 1.55;
@@ -59,21 +62,24 @@
                 margin-bottom: 40px;
             }
 
-           
+
 
             .introduce__contianer__textbox__btns__contianer {
                 border-top: 1px solid rgb(191, 191, 191);
                 padding-top: 40px;
                 display: flex;
                 align-items: center;
-                margin-bottom: 135px;     justify-content: flex-start;
-                .introduce__contianer__textbox__btn{
+                margin-bottom: 135px;
+                justify-content: flex-start;
+
+                .introduce__contianer__textbox__btn {
                     display: flex;
                     align-items: center;
                     width: 45%;
                     margin-right: 20px;
                     justify-content: center;
-                    .introduce__contianer__textbox__btn__icon{
+
+                    .introduce__contianer__textbox__btn__icon {
                         flex: 1;
                         display: flex;
                         padding: 30px;
@@ -85,27 +91,30 @@
                         background-color: transparent;
                         transition: 0.2s ease all;
 
-                        &:hover{
+                        &:hover {
                             background-color: #e10f28;
                             transition: 0.5s ease all;
                         }
 
-                        .introduce__contianer__textbox__btn__icon__Img{
+                        .introduce__contianer__textbox__btn__icon__Img {
                             height: 55px;
                             fill: white;
                         }
                     }
-                    .introduce__contianer__textbox__btn__textblog{
+
+                    .introduce__contianer__textbox__btn__textblog {
                         display: flex;
                         justify-content: flex-start;
                         flex-direction: column;
                         padding-left: 20px;
-                        .introduce__contianer__textbox__btn__textblog__header{
+
+                        .introduce__contianer__textbox__btn__textblog__header {
                             font-size: 16;
                             color: #222;
                             margin-bottom: 8px;
                         }
-                        .introduce__contianer__textbox__btn__textblog__content{
+
+                        .introduce__contianer__textbox__btn__textblog__content {
                             font-size: 12px;
                             margin-bottom: 0;
                             color: #222;

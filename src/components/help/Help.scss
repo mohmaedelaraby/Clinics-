@@ -1,0 +1,190 @@
+.help {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .help__container {
+        .help__conatiner__upper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .help__conatiner__upper__left {
+           
+
+                .help__conatiner__upper__left_item__contianer__textbox {
+                
+                    display: flex;
+                    height: 100%;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-left: 13%;
+
+                    .help__conatiner__upper__left_item__contianer__textbox__header {
+                        font-size: 25px;
+                        letter-spacing: 0 !important;
+
+                        .help__conatiner__upper__left_item__contianer__textbox__header__bottomline {
+                            opacity: 1 !important;
+                            width: 10%;
+                            border: none;
+                            border-top: 3px solid #e10f28;
+                        }
+                    }
+
+                    .help__conatiner__upper__left_item__contianer__textbox__title {
+                        color: #e10f28;
+                        font-weight: 800;
+                        font-size: 70px;
+
+                        .help__conatiner__upper__left_item__contianer__textbox__subtitle {
+                            color: #222;
+                            font-size: 70px;
+                            font-weight: normal;
+                        }
+                    }
+
+
+
+                    .help__conatiner__upper__left_item__contianer__textbox__content {
+                        line-height: 1.55;
+                        font-size: 25px;
+                        width: 95%;
+                    }
+
+                    .help__conatiner__upper__left_item__contianer__textbox__btns__contianer {
+                        padding-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        .help__conatiner__upper__left_item__contianer__textbox__btn {
+                            margin-right: 15px;
+                            background-color: #e10f28;
+                            border: 2px solid #e10f28;
+                            border-radius: 50px;
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: white;
+                            padding: 15px 30px;
+                            transition: 0.2s ease all;
+
+                            &:hover {
+                                transition: 0.2s ease all;
+                                background-color: #c21428;
+                            }
+
+                            &.help__conatiner__upper__left_item__contianer__textbox__btn--gray-one {
+
+                                background-color: #282828;
+                                border: 2px solid #282828;
+                                transition: 0.2s ease all;
+
+                                &:hover {
+                                    transition: 0.2s ease all;
+                                    background-color: #1d1d1d;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .help__conatiner__upper__right{
+                margin-right: 8%;
+                border: #f1f1f1 10px solid;
+                .help__conatiner__upper__rights{
+                    padding: 50px 55px;
+              
+                    .help__conatiner__upper__right__conatiner{
+                       display: flex;
+                       align-content: center;
+                       justify-content: center;
+                       flex-direction: column;
+                       width: 300px;
+                       
+                       .help__conatiner__upper__right__contianer__textbox__header{
+                           font-size: 16px;
+                           letter-spacing: 0 !important;
+                           .help__conatiner__upper__right__contianer__textbox__header__bottomline{
+                               opacity: 1 !important;
+                               width: 10%;
+                               border: none;
+                               border-top: 3px solid #e10f28;
+                           }
+                       }
+   
+                       .help__conatiner__upper__right__conatiner__title{
+                           color: #e10f28;
+                           font-weight: 800;
+                           font-size: 25px;
+                       }
+                       .help__conatiner__upper__right__contianer__textbox__content{
+                           line-height: 1.55;
+                           font-size: 16px;
+                           text-align: left;
+                           margin-top: 20px;
+                               
+                      }
+                      .help__conatiner__upper__right__contianer__dropdown__container{
+                       padding: 10px 15px ;
+                       border-radius: 50px;
+                       background-color: #f1f1f1;
+                       border: 1px solid #f1f1f1;
+                       margin-top: 20px;
+                       .dropdown{
+                           .btn{
+                               background-color: transparent;
+                               border: none;
+                               color: #1d1d1d;
+                               width: 100%;
+                               display: flex;
+                               align-items: center;
+                               justify-content: center;
+                               justify-content: flex-start;
+                               padding: 0;
+   
+                               &::after{
+                                   margin-left: 8.255em;
+                               }
+   
+                               &:hover{
+                                   border: none;
+                                   background-color: transparent;
+                               }
+                           }
+                           .dropdown-menu{
+                               width: 121%;
+                               transform: translate3d(-20px, 37.4px, 0px) !important;
+                               border-radius: 0px;
+                               padding: 0;
+                               margin: 0;
+                               .dropdown-item{
+                                   border-top: 1px solid #f1f1f1;
+                                   font-size: 14px;
+                                   padding: 10px;
+                                   font-weight: normal;
+   
+                                   &:first-child{
+                                       border-top: 0px solid #000;
+                                   }
+                                   &:first-of-type{
+                                       border-top: 0px solid #000;
+                                   }
+                                   
+                               }
+                              
+                           }
+                       }
+                      }
+                   }
+                }
+                
+               
+            }
+
+
+        }
+    }
+
+}
+
+.help__conatiner__lower {}

@@ -65,6 +65,27 @@
             }
         }
     }
+    &.card--testmon{
+        background-color: transparent;
+
+        .card-body{
+            background-color: transparent;
+            .card-text{
+                text-align: center;
+            }
+            .card-body__title{
+                text-align: center;
+                .card-body__title__name{
+                    font-size: 16px;
+                    font-weight: normal;
+                }
+                .card-body__title__age{
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
     .card-img-top{
         border-radius:0px ;
     }
